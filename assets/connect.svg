@@ -1,0 +1,70 @@
+<svg viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+:root{
+    --text:#F5F5F5;
+    --muted:#C8C8C8;
+    --line:#6B6B6B;
+}
+
+@media (prefers-color-scheme: light){
+:root{
+    --text:#111111;
+    --muted:#555555;
+    --line:#CFCFCF;
+}
+}
+
+.number{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:56px;
+    font-weight:300;
+    fill:var(--text);
+}
+
+.title{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:18px;
+    letter-spacing:8px;
+    fill:var(--text);
+}
+
+.body{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:16px;
+    fill:var(--text);
+}
+
+.rule{
+    stroke:var(--line);
+    stroke-width:1.2;
+}
+</style>
+
+<!-- Header -->
+<text class="number" x="10" y="60">01</text>
+
+<text class="title" x="98" y="52">LET'S CONNECT ON</text>
+
+<line class="rule" x1="430" y1="44" x2="990" y2="44"/>
+
+<!-- Links -->
+<a href="https://www.linkedin.com/in/shamama-nizamani/" target="_blank">
+    <text class="body" x="40" y="110">
+        [01] LinkedIn — Work, projects &amp; career updates.
+    </text>
+</a>
+
+<a href="https://substack.com/@shamamanizamani" target="_blank">
+    <text class="body" x="40" y="145">
+        [02] Substack — Writings, reflections &amp; ideas.
+    </text>
+</a>
+
+<a href="https://www.threads.com/@shamamanizamani" target="_blank">
+    <text class="body" x="40" y="180">
+        [03] Threads — Unfiltered thoughts.
+    </text>
+</a>
+
+</svg>
