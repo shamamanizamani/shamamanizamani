@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/header.svg" width="100%" alt="Header">
-  <img src="assets/connect.svg" width="100%" alt="Connect">
   <img src="assets/projects.svg" width="100%" alt="Projects" />
+  <img src="assets/connect.svg" width="100%" alt="Connect">
 
 </div>
 
