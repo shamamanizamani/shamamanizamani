@@ -48,46 +48,12 @@ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation 
 
 </style>
 
-<!-- Top Line -->
-
-<line
-class="draw"
-x1="40"
-y1="45"
-x2="960"
-y2="45"
-stroke="var(--line)"
-stroke-width="1"/>
-
-<!-- Small Header -->
-
-<text
-class="mono fade d1"
-x="40"
-y="28"
-font-size="11"
-letter-spacing="3"
-fill="var(--text)">
-PORTFOLIO — INDEX Nº 001
-</text>
-
-<text
-class="mono fade d1"
-x="960"
-y="28"
-text-anchor="end"
-font-size="11"
-letter-spacing="3"
-fill="var(--text)">
-PAKISTAN
-</text>
-
 <!-- Name -->
 
 <text
 class="mono fade d2"
 x="40"
-y="135"
+y="120"
 font-size="60"
 fill="var(--text)">
 Hi, my name is Shamama.
@@ -98,7 +64,7 @@ Hi, my name is Shamama.
 <text
 class="mono fade d3"
 x="40"
-y="170"
+y="155"
 font-size="18"
 fill="var(--text)">
 Full Stack Mobile Developer (Flutter &amp; .NET)
@@ -110,7 +76,7 @@ Full Stack Mobile Developer (Flutter &amp; .NET)
 class="mono fade d4"
 x="40"
 y="225"
-font-size="12"
+font-size="14"
 letter-spacing="1"
 fill="var(--text)">
 Flutter - .NET - Firebase - SQL 
@@ -120,7 +86,7 @@ Flutter - .NET - Firebase - SQL
 class="mono fade d4"
 x="40"
 y="248"
-font-size="12"
+font-size="14"
 letter-spacing="1"
 fill="var(--text)">
 building scalable mobile applications from frontend to backend
@@ -131,11 +97,11 @@ building scalable mobile applications from frontend to backend
 <line
 class="draw"
 x1="40"
-y1="295"
+y1="305"
 x2="960"
-y2="295"
-stroke="var(--line)"
-stroke-width="1"/>
+y2="305"
+stroke="var(--text)"
+stroke-width="5"/>
 
 <!-- Footer -->
 

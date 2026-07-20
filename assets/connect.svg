@@ -17,14 +17,14 @@
 
 .number{
     font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-    font-size:56px;
+    font-size:25px;
     font-weight:300;
     fill:var(--text);
 }
 
 .title{
     font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-    font-size:18px;
+    font-size:25px;
     letter-spacing:8px;
     fill:var(--text);
 }
@@ -36,35 +36,34 @@
 }
 
 .rule{
-    stroke:var(--line);
+    stroke:var(--text);
     stroke-width:1.2;
 }
 </style>
 
 <!-- Header -->
-<text class="number" x="10" y="60">01</text>
 
-<text class="title" x="98" y="52">LET'S CONNECT ON</text>
+<line class="rule" x1="40" y1="37" x2="960" y2="37"/>
 
-<line class="rule" x1="430" y1="44" x2="990" y2="44"/>
 
-<!-- Links -->
-<a href="https://www.linkedin.com/in/shamama-nizamani/" target="_blank">
-    <text class="body" x="40" y="110">
-        [01] LinkedIn — Work, projects &amp; career updates.
-    </text>
-</a>
+<!-- Heading -->
+<text class="number" x="40" y="67">01</text>
 
-<a href="https://substack.com/@shamamanizamani" target="_blank">
-    <text class="body" x="40" y="145">
-        [02] Substack — Writings, reflections &amp; ideas.
-    </text>
-</a>
+<!-- Vertical Divider -->
+<line
+    x1="88"
+    y1="45"
+    x2="88"
+    y2="78"
+    stroke="var(--text)"
+    stroke-width="2"
+/>
 
-<a href="https://www.threads.com/@shamamanizamani" target="_blank">
-    <text class="body" x="40" y="180">
-        [03] Threads — Unfiltered thoughts.
-    </text>
-</a>
+<text class="title" x="105" y="67">
+    LET'S CONNECT ON
+</text>
+
+<line class="rule" x1="40" y1="78" x2="960" y2="78"/>
+
 
 </svg>
