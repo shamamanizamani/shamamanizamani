@@ -1,0 +1,131 @@
+<svg viewBox="0 0 1000 250" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+
+:root{
+    --text:#111111;
+    --muted:#666666;
+    --line:#D9D9D9;
+}
+
+@media (prefers-color-scheme: dark){
+
+:root{
+    --text:#F5F5F5;
+    --muted:#9A9A9A;
+    --line:#404040;
+}
+
+}
+
+.mono{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+.number{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:25px;
+    font-weight:300;
+    fill:var(--text);
+}
+
+.title{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:25px;
+    letter-spacing:8px;
+    fill:var(--text);
+}
+
+.rule{
+    stroke:var(--text);
+    stroke-width:1.2;
+}
+
+.draw{
+    stroke-dasharray:1000;
+    stroke-dashoffset:1000;
+    animation:draw 1.2s forwards;
+}
+
+.fade{
+    opacity:0;
+    animation:fade .8s forwards;
+}
+
+.d1{animation-delay:.2s;}
+.d2{animation-delay:.5s;}
+.d3{animation-delay:.8s;}
+.d4{animation-delay:1.1s;}
+.d5{animation-delay:1.4s;}
+
+@keyframes draw{
+    to{stroke-dashoffset:0;}
+}
+
+@keyframes fade{
+    to{opacity:1;}
+}
+
+</style>
+
+<!-- ================= HEADER ================= -->
+
+<line class="rule draw d1" x1="40" y1="37" x2="960" y2="37"/>
+
+<text class="number fade d2" x="40" y="67">02</text>
+
+<line
+    class="draw d2"
+    x1="88"
+    y1="45"
+    x2="88"
+    y2="78"
+    stroke="var(--text)"
+    stroke-width="2"/>
+
+<text class="title fade d2" x="105" y="67">
+    PROJECTS
+</text>
+
+<line class="rule draw d2" x1="40" y1="78" x2="960" y2="78"/>
+
+<!-- ================= PROJECT 01 ================= -->
+
+<text
+    class="mono fade d3"
+    x="40"
+    y="118"
+    font-size="22"
+    fill="var(--text)">
+    01 / THREADTRACK
+</text>
+
+<text
+    class="mono fade d4"
+    x="40"
+    y="152"
+    font-size="16"
+    fill="var(--text)">
+    A Flutter app built using Meta's official Threads API to fetch posts,
+</text>
+
+<text
+    class="mono fade d4"
+    x="40"
+    y="176"
+    font-size="16"
+    fill="var(--text)">
+    track posting streaks and visualize account activity on a calendar.
+</text>
+
+<text
+    class="mono fade d5"
+    x="40"
+    y="215"
+    font-size="14"
+    letter-spacing="2"
+    fill="var(--text)">
+    FLUTTER · THREADS API · HIVE · PROVIDER
+</text>
+
+</svg>

@@ -1,4 +1,4 @@
-<svg viewBox="0 0 1000 360" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
 
 <style>
 
@@ -70,12 +70,21 @@ fill="var(--text)">
 Full Stack Mobile Developer (Flutter &amp; .NET)
 </text>
 
+<line
+class="draw"
+x1="40"
+y1="165"
+x2="960"
+y2="165"
+stroke="var(--text)"
+stroke-width="1"/>
+
 <!-- Focus -->
 
 <text
 class="mono fade d4"
 x="40"
-y="225"
+y="200"
 font-size="16"
 letter-spacing="1"
 fill="var(--text)">
@@ -85,7 +94,7 @@ Flutter - .NET - Firebase - SQL
 <text
 class="mono fade d4"
 x="40"
-y="248"
+y="220"
 font-size="16"
 letter-spacing="1"
 fill="var(--text)">
@@ -97,109 +106,14 @@ building scalable mobile applications from frontend to backend
 <line
 class="draw"
 x1="40"
-y1="305"
+y1="245"
 x2="960"
-y2="305"
+y2="245"
 stroke="var(--text)"
 stroke-width="5"/>
 
 <!-- Footer -->
 
-<text
-class="mono fade d5"
-x="40"
-y="330"
-font-size="14"
-letter-spacing="2"
-fill="var(--text)">
-FLUTTER
-</text>
 
-<text
-class="mono fade d5"
-x="170"
-y="330"
-font-size="14"
-fill="var(--text)">
-·
-</text>
-
-<text
-class="mono fade d5"
-x="200"
-y="330"
-font-size="14"
-letter-spacing="2"
-fill="var(--text)">
-.NET
-</text>
-
-<text
-class="mono fade d5"
-x="285"
-y="330"
-font-size="14"
-fill="var(--text)">
-·
-</text>
-
-<text
-class="mono fade d5"
-x="315"
-y="330"
-font-size="14"
-letter-spacing="2"
-fill="var(--text)">
-REST APIs
-</text>
-
-<text
-class="mono fade d5"
-x="480"
-y="330"
-font-size="14"
-fill="var(--text)">
-·
-</text>
-
-<text
-class="mono fade d5"
-x="510"
-y="330"
-font-size="14"
-letter-spacing="2"
-fill="var(--text)">
-SQL
-</text>
-
-<text
-class="mono fade d5"
-x="590"
-y="330"
-font-size="14"
-fill="var(--text)">
-·
-</text>
-
-<text
-class="mono fade d5"
-x="620"
-y="330"
-font-size="14"
-letter-spacing="2"
-fill="var(--text)">
-FIREBASE
-</text>
-
-<text
-class="mono fade d5"
-x="960"
-y="330"
-text-anchor="end"
-font-size="14"
-letter-spacing="2"
-fill="var(--text)">
-CS STUDENT
-</text>
 
 </svg>

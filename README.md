@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-  <a href="https://www.linketdin.com/in/shamama-nizamani/">
+  <a href="https://www.linkedin.com/in/shamama-nizamani/">
     <img src="assets/linkedin.svg" width="100%" alt="LinkedIn">
   </a>
 
