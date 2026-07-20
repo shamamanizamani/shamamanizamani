@@ -8,12 +8,22 @@
   <img src="assets/connect.svg" width="100%" alt="Connect">
 </p>
 
-<p align="left">
+<table>
+  <tr>
+    <td><code>↗</code></td>
+    <td><a href="https://www.linkedin.com/in/shamama-nizamani/">LinkedIn</a></td>
+    <td>— Work, projects &amp; career updates.</td>
+  </tr>
 
-↗ <a href="https://www.linkedin.com/in/shamama-nizamani/">LinkedIn</a> — Work, projects &amp; career updates.<br><br>
+  <tr>
+    <td><code>↗</code></td>
+    <td><a href="https://substack.com/@shamamanizamani">Substack</a></td>
+    <td>— Writings, reflections &amp; ideas.</td>
+  </tr>
 
-↗ <a href="https://substack.com/@shamamanizamani">Substack</a> — Writings, reflections &amp; ideas.<br><br>
-
-↗ <a href="https://www.threads.com/@shamamanizamani">Threads</a> — Unfiltered thoughts.
-
-</p>
+  <tr>
+    <td><code>↗</code></td>
+    <td><a href="https://www.threads.com/@shamamanizamani">Threads</a></td>
+    <td>— Unfiltered thoughts.</td>
+  </tr>
+</table>
