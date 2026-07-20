@@ -5,7 +5,7 @@
 <br>
 
 <p align="center">
-  <img src="assets/connect-header.svg" width="100%" alt="Let's Connect On">
+  <img src="assets/connect.svg" width="100%" alt="Let's Connect On">
 </p>
 
 <p align="center">
