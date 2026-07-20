@@ -1,6 +1,6 @@
 <div align="center">
   <img src="assets/header.svg" width="100%" alt="Header">
-  <img src="assets/connect-header.svg" width="100%" alt="Connect">
+  <img src="assets/connect.svg" width="100%" alt="Connect">
 </div>
 
 <p align="center">
