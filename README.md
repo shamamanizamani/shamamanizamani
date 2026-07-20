@@ -5,25 +5,19 @@
 <br>
 
 <p align="center">
-  <img src="assets/connect.svg" width="100%" alt="Connect">
+  <img src="assets/connect-header.svg" width="100%" alt="Let's Connect On">
 </p>
 
-<table>
-  <tr>
-    <td><code>↗</code></td>
-    <td><a href="https://www.linkedin.com/in/shamama-nizamani/">LinkedIn</a></td>
-    <td>— Work, projects &amp; career updates.</td>
-  </tr>
+<p align="center">
+  <a href="https://www.linkedin.com/in/shamama-nizamani/">
+    <img src="assets/linkedin.svg" width="100%" alt="LinkedIn">
+  </a>
 
-  <tr>
-    <td><code>↗</code></td>
-    <td><a href="https://substack.com/@shamamanizamani">Substack</a></td>
-    <td>— Writings, reflections &amp; ideas.</td>
-  </tr>
+  <a href="https://substack.com/@shamamanizamani">
+    <img src="assets/substack.svg" width="100%" alt="Substack">
+  </a>
 
-  <tr>
-    <td><code>↗</code></td>
-    <td><a href="https://www.threads.com/@shamamanizamani">Threads</a></td>
-    <td>— Unfiltered thoughts.</td>
-  </tr>
-</table>
+  <a href="https://www.threads.com/@shamamanizamani">
+    <img src="assets/threads.svg" width="100%" alt="Threads">
+  </a>
+</p>
